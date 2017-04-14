@@ -2,6 +2,7 @@
 import Phaser from 'phaser'
 import Mushroom from '../sprites/Mushroom'
 import Player1 from '../sprites/Player1'
+import HealthBar from '../sprites/HealthBar'
 
 export default class extends Phaser.State {
   init() {}
@@ -22,22 +23,6 @@ export default class extends Phaser.State {
     //  This resizes the game world to match the layer dimensions
     layer.resizeWorld();
 
-    // const bannerText = 'Phaser + ES6 + Webpack'
-    // let banner = this.add.text(this.world.centerX, this.game.height - 80, bannerText)
-    // banner.font = 'Bangers'
-    // banner.padding.set(10, 16)
-    // banner.fontSize = 40
-    // banner.fill = '#77BFA3'
-    // banner.smoothed = false
-    // banner.anchor.setTo(0.5)
-
-    // this.mushroom = new Mushroom({
-    //   game: this,
-    //   x: this.world.centerX,
-    //   y: this.world.centerY,
-    //   asset: 'mushroom'
-    // })
-
     this.player1 = new Player1({
       game: this,
       x: this.world.centerX,
@@ -45,10 +30,21 @@ export default class extends Phaser.State {
       asset: 'player1'
     })
 
+    this.healthbar = new HealthBar({
+      game: this,
+      x: this.game.width - 3,
+      y: 3
+    })
+
     // this.game.add.existing(this.mushroom)
+    this.game.add.existing(this.healthbar)
     this.game.add.existing(this.player1)
 
-    game.camera.follow(this.player1);
+    // var bglife = this.game.add.sprite(this.game.world.centerX, this.game.world.centerY, bmd);
+    // bglife.anchor.set(0.5);
+    // 
+
+    this.game.camera.follow(this.player1);
   }
 
   render() {
