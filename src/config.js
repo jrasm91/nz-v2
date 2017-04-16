@@ -1,6 +1,6 @@
 export default {
-  gameWidth: 760,
-  gameHeight: 400,
+  gameWidth: 800,
+  gameHeight: 800,
   localStorageName: 'nz-v2',
   player : {
     speed : 4,
