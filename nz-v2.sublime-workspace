@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"setColl",
+				"setCollisionBetween"
+			],
+			[
+				"back",
+				"backgroundSprite"
+			],
+			[
 				"Card",
 				"CardActions〔variable〕"
 			],
@@ -106,10 +114,6 @@
 			[
 				"draw",
 				"drawRectangle"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"con",
@@ -510,64 +514,88 @@
 			[
 				"mouse",
 				"mousePosition"
-			],
-			[
-				"mou",
-				"mousePosition"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/home/jrasm91/Documents/jrasm.com/src/App.js",
+			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 1199,
+				"buffer_size": 586,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/jrasm91/Documents/jrasm.com/src/components/Layout.jsx",
+			"contents": "node_modules/\ndist/\n.vscode/\n\nyarn.lock",
+			"file": ".gitignore",
+			"file_size": 39,
+			"file_write_time": 131366645141248170,
 			"settings":
 			{
-				"buffer_size": 2171,
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/states/Splash.js",
+			"settings":
+			{
+				"buffer_size": 761,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/jrasm91/Documents/jrasm.com/src/components/About.jsx",
+			"file": "src/states/Game.js",
 			"settings":
 			{
-				"buffer_size": 5197,
+				"buffer_size": 1419,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/jrasm91/Documents/jrasm.com/src/components/ProfileCard.jsx",
+			"file": "src/sprites/Player1.js",
 			"settings":
 			{
-				"buffer_size": 976,
+				"buffer_size": 796,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/jrasm91/Documents/nz/client/src/js/client.js",
+			"file": "src/config.js",
 			"settings":
 			{
-				"buffer_size": 1098,
+				"buffer_size": 178,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/jrasm91/Documents/jrasm.com/src/less/app.less",
+			"file": "public/assets/maps/map2.json",
 			"settings":
 			{
-				"buffer_size": 1045,
+				"buffer_size": 7485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/maps/map1.json",
+			"settings":
+			{
+				"buffer_size": 31518,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/states/Boot.js",
+			"settings":
+			{
+				"buffer_size": 864,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -597,7 +625,7 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "",
+		"last_filter": "inde",
 		"selected_items":
 		[
 			[
@@ -722,13 +750,43 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jrasm91/Documents/nz",
-		"/home/jrasm91/Documents/nz/client",
-		"/home/jrasm91/Documents/nz/client/src",
-		"/home/jrasm91/Documents/nz/core"
+		"/home/jrasm91/Documents/nz-v2",
+		"/home/jrasm91/Documents/nz-v2/public",
+		"/home/jrasm91/Documents/nz-v2/public/assets",
+		"/home/jrasm91/Documents/nz-v2/public/assets/images",
+		"/home/jrasm91/Documents/nz-v2/public/assets/maps",
+		"/home/jrasm91/Documents/nz-v2/src",
+		"/home/jrasm91/Documents/nz-v2/src/sprites",
+		"/home/jrasm91/Documents/nz-v2/src/states"
 	],
 	"file_history":
 	[
+		"/home/jrasm91/Documents/nz-v2/src/config.js",
+		"/home/jrasm91/Documents/nz-v2/src/states/Game.js",
+		"/home/jrasm91/Documents/nz-v2/src/main.js",
+		"/home/jrasm91/Documents/nz-v2/webpack.config.js",
+		"/home/jrasm91/Documents/nz-v2/src/sprites/HealthBar.js",
+		"/home/jrasm91/Documents/nz-v2/webpack.production.config.js",
+		"/home/jrasm91/Documents/nz-v2/src/states/Splash.js",
+		"/home/jrasm91/Documents/nz-v2/src/states/Boot.js",
+		"/home/jrasm91/Documents/nz-v2/src/sprites/Player1.js",
+		"/home/jrasm91/Downloads/jagexlauncher-src/JagexLauncher/JagexLauncher.cpp",
+		"/home/jrasm91/Documents/nz-v2/node_modules/webfontloader/webfontloader.js",
+		"/home/jrasm91/Documents/nz-v2/public/index.html",
+		"/home/jrasm91/Documents/nz-v2/src/sprites/Mushroom.js",
+		"/home/jrasm91/Documents/nz-v2/package.json",
+		"/home/jrasm91/Documents/nz-v2/public/dist/bundle.js",
+		"/home/jrasm91/Documents/nz-v2/index.html",
+		"/home/jrasm91/Documents/nz-v2/assets/maps/Map1.json",
+		"/home/jrasm91/Documents/nz/core/data/Map1.json",
+		"/home/jrasm91/Documents/nz/core/data/tiles.json",
+		"/home/jrasm91/Documents/nz-v2/assets/images/loader-bg.png",
+		"/home/jrasm91/Documents/phaser-es6-webpack/package.json",
+		"/home/jrasm91/Documents/jrasm.com/src/less/app.less",
+		"/home/jrasm91/Documents/jrasm.com/src/App.js",
+		"/home/jrasm91/Documents/jrasm.com/src/components/Layout.jsx",
+		"/home/jrasm91/Documents/jrasm.com/src/components/About.jsx",
+		"/home/jrasm91/Documents/jrasm.com/src/components/ProfileCard.jsx",
 		"/home/jrasm91/Documents/portfolio/src/index.js",
 		"/home/jrasm91/Documents/portfolio/src/components/About.jsx",
 		"/home/jrasm91/Documents/portfolio/src/less/app.less",
@@ -830,33 +888,7 @@
 		"/home/jrasm91/Documents/nz/client/src/js/eventhandler.js",
 		"/home/jrasm91/Documents/nz/client/index.js",
 		"/home/jrasm91/Documents/nz/package.json",
-		"/home/jrasm91/Documents/jrasm-snake/package.json",
-		"/home/jrasm91/Documents/portfolio/src/components/Menu.jsx",
-		"/home/jrasm91/Documents/portfolio/src/components/Jumbotron.jsx",
-		"/home/jrasm91/Documents/portfolio/public/pingpong.html",
-		"/home/jrasm91/Documents/portfolio/src/components/NavbarTabs.js",
-		"/home/jrasm91/Documents/portfolio/node_modules/material-ui/svg-icons/action/view-quilt.js",
-		"/home/jrasm91/Documents/portfolio/node_modules/material-ui/svg-icons/action/stars.js",
-		"/home/jrasm91/Documents/portfolio/node_modules/material-ui/SvgIcon/SvgIcon.js",
-		"/home/jrasm91/Documents/portfolio/node_modules/material-ui/SvgIcon/index.js",
-		"/home/jrasm91/Documents/portfolio/src/css/less/app.less",
-		"/home/jrasm91/Documents/portfolio/build/maps.html",
-		"/home/jrasm91/Documents/portfolio/build/duckbump.html",
-		"/home/jrasm91/Documents/portfolio/src/less/bootstrap.less",
-		"/home/jrasm91/Documents/portfolio/src/less/variables.less",
-		"/home/jrasm91/Documents/portfolio/src/css/index.css",
-		"/home/jrasm91/Documents/portfolio/src/css/app.css",
-		"/home/jrasm91/Documents/portfolio/src/less/theme.less",
-		"/home/jrasm91/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings",
-		"/home/jrasm91/Documents/portfolio/src/components/ProjectCard.js",
-		"/home/jrasm91/Documents/portfolio/node_modules/bootstrap/Gruntfile.js",
-		"/home/jrasm91/Documents/portfolio/node_modules/bootstrap/dist/js/npm.js",
-		"/home/jrasm91/Documents/portfolio/build/static/js/main.7830067a.js.map",
-		"/home/jrasm91/Documents/portfolio/build/static/js/main.7830067a.js",
-		"/home/jrasm91/Documents/hello-world/src/index.js",
-		"/home/jrasm91/Documents/hello-world/src/App.js",
-		"/home/jrasm91/Documents/portfolio/node_modules/react-scripts/config/env.js",
-		"/home/jrasm91/Documents/portfolio/index.js"
+		"/home/jrasm91/Documents/jrasm-snake/package.json"
 	],
 	"find":
 	{
@@ -878,6 +910,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"this.y",
+			"this.x",
+			"Dungeon1",
+			"watch",
+			"p.",
+			"p",
+			"handleKeypress",
+			"config.player.speed",
+			"this.y",
+			"this.x",
+			"25",
+			"config.player.healthbar",
+			"200",
+			"bitmapData",
+			"bmd",
+			"game",
+			"bmd",
+			"4",
+			"build",
+			"dist",
+			"index",
+			"dist",
+			"assets",
+			"graphics",
+			"10",
+			"mushroom",
 			"OutdoorCard",
 			"AboutCard",
 			"PersonIcon",
@@ -979,33 +1037,7 @@
 			"PATH",
 			"css",
 			"MapSurveyCard",
-			"DuckbumpCard",
-			"DuckBumpCard",
-			"Flat",
-			"runDevServer",
-			"link",
-			"keys",
-			"glob",
-			"vendor-sc",
-			"dist",
-			"'dist'",
-			"('dist'));",
-			"'dist'",
-			"constants",
-			"DuckbumpGame",
-			"DuckBump",
-			"duckbump",
-			"DuckbumpGame",
-			"vendor",
-			"client",
-			"monster",
-			"player",
-			"config",
-			"Utility",
-			"dt",
-			"tickNum",
-			"dt",
-			"player"
+			"DuckbumpCard"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1024,24 +1056,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/jrasm91/Documents/jrasm.com/src/App.js",
+					"file": "public/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1199,
+						"buffer_size": 586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1136,
-								1136
+								332,
+								332
 							]
 						],
 						"settings":
@@ -1052,382 +1084,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										1169,
-										1170
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										1069,
-										1070
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/jrasm91/Documents/jrasm.com/src/components/Layout.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1570,
-								1570
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1569,
-										1570
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1557,
-										1558
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 600.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/jrasm91/Documents/jrasm.com/src/components/About.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								703,
-								703
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										715,
-										716
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										696,
-										697
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/jrasm91/Documents/jrasm.com/src/components/ProfileCard.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 976,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										287,
-										288
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										219,
-										220
-									]
 								},
 								"unmatched":
 								{
@@ -1491,35 +1153,64 @@
 								"bh_default_close",
 								"bh_default_content"
 							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/jrasm91/Documents/nz/client/src/js/client.js",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1098,
+						"buffer_size": 39,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								14,
+								14
 							]
 						],
 						"settings":
 						{
+							"bracket_highlighter.busy": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/states/Splash.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								761,
+								761
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -1600,24 +1291,380 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/home/jrasm91/Documents/jrasm.com/src/less/app.less",
+					"buffer": 3,
+					"file": "src/states/Game.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1045,
+						"buffer_size": 1419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										323,
+										324
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										303,
+										304
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/sprites/Player1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										793,
+										794
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										259,
+										260
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										174,
+										175
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										94,
+										95
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/assets/maps/map2.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5693,
+								5693
 							]
 						],
 						"settings":
@@ -1627,17 +1674,233 @@
 							{
 								"close":
 								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
 									"1":
 									[
-										116,
-										117
+										7484,
+										7485
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/assets/maps/map1.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										35,
+										36
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/states/Boot.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										415,
+										416
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -1645,8 +1908,8 @@
 								{
 									"1":
 									[
-										86,
-										87
+										323,
+										324
 									]
 								},
 								"unmatched":
@@ -1655,69 +1918,69 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1780,6 +2043,50 @@
 		"selected_items":
 		[
 			[
+				"play",
+				"src/sprites/Player1.js"
+			],
+			[
+				"confi",
+				"src/config.js"
+			],
+			[
+				"player",
+				"src/sprites/Player1.js"
+			],
+			[
+				"map1",
+				"public/assets/maps/map1.json"
+			],
+			[
+				"map2",
+				"public/assets/maps/map2.json"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"webp",
+				"webpack.config.js"
+			],
+			[
+				"webpack",
+				"webpack.production.config.js"
+			],
+			[
+				"spl",
+				"src/states/Splash.js"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
 				"les",
 				"src/less/app.less"
 			],
@@ -1790,14 +2097,6 @@
 			[
 				"about",
 				"src/components/About.jsx"
-			],
-			[
-				"inde",
-				"public/index.html"
-			],
-			[
-				"index",
-				"build/index.html"
 			],
 			[
 				"main",
@@ -1846,10 +2145,6 @@
 			[
 				"ind",
 				"public/index.html"
-			],
-			[
-				"pack",
-				"package.json"
 			],
 			[
 				"navb",
@@ -2084,10 +2379,6 @@
 				"client/src/js/network.js"
 			],
 			[
-				"play",
-				"core/js/playermanager.js"
-			],
-			[
 				"net",
 				"server/scripts/network.js"
 			],
@@ -2098,10 +2389,6 @@
 			[
 				"livin",
 				"core/js/livingentity.js"
-			],
-			[
-				"confi",
-				"core/js/config.js"
 			],
 			[
 				"statgame",
@@ -2266,30 +2553,6 @@
 			[
 				"atam",
 				"client/src/js/statemanager.js"
-			],
-			[
-				"stategame",
-				"client/src/js/states/game.js"
-			],
-			[
-				"coregame",
-				"core/js/game.js"
-			],
-			[
-				"stgam",
-				"client/src/js/states/game.js"
-			],
-			[
-				"sta",
-				"client/src/js/statemanager.js"
-			],
-			[
-				"clien",
-				"client/src/js/client.js"
-			],
-			[
-				"clinetwo",
-				"client/src/js/network.js"
 			]
 		],
 		"width": 0.0
