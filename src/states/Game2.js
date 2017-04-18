@@ -29,11 +29,10 @@ export default class extends Phaser.State {
       game: this.game,
       x: 450,
       y: 150,
-      asset: 'player1'
+      asset: 'player'
     })
 
     this.physics.arcade.enable(this.player1);
-    this.add.existing(this.player1)
     this.camera.follow(this.player1);
     this.player1.debug = true
 

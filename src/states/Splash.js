@@ -14,6 +14,7 @@ export default class extends Phaser.State {
     // load your assets
     //
     this.load.spritesheet('player1', 'assets/images/player1.png', 32, 42, 1)
+    this.load.spritesheet('player', 'assets/images/player.png', 64, 64)
     
     this.load.spritesheet('crystal-blue', 'assets/images/items/crystal-qubodup-ccby3-32-blue.png', 32, 32, 8)
     this.load.spritesheet('crystal-green', 'assets/images/items/crystal-qubodup-ccby3-32-green.png', 32, 32, 8)

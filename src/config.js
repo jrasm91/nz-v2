@@ -3,7 +3,7 @@ export default {
   gameHeight: 800,
   localStorageName: 'nz-v2',
   player : {
-    speed : 400,
+    speed : 200,
     healthbar : {
       width: 200,
       height: 25
