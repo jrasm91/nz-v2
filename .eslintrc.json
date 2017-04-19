@@ -1,5 +1,8 @@
 {
   "extends": "standard",
+  "rules": {
+        "semi": [2, "always"]
+    },
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
