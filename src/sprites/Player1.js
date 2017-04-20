@@ -7,7 +7,10 @@ export default class extends Phaser.Sprite {
     this.anchor.setTo(0.5)
     this.kb = game.input.keyboard
 
-    this.game.add.existing(this)
+    this.game.physics.arcade.enable(this);
+    this.body.setSize(32, 50, 16, 12);
+
+    this.game.add.existing(this);
 
     this.animations.add('walk-left', [118, 119, 120, 121, 122, 123, 124, 125]);
     this.animations.add('walk-right', [144, 145, 146, 147, 148, 149, 150, 151]);

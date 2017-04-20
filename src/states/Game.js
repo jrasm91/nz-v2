@@ -16,29 +16,22 @@ export default class extends Phaser.State {
 
     this.map = this.game.add.tilemap('map1');
     this.map.addTilesetImage('tiles');
-
     this.layer = this.map.createLayer('Dungeon1');
-    this.layer.resizeWorld();
+    this.collisionLayer = this.map.createLayer('Walls');
 
-    this.map.setCollisionBetween(1, 3)
-    this.map.setCollision(11)
-    this.map.setCollision(13)
-    this.map.setCollisionBetween(21, 23)
-    this.map.setCollisionBetween(31, 34) // doors
-    this.map.setCollisionBetween(41, 42)
-    this.map.setCollisionBetween(51, 52)
-
-    // this.layer.debug = true;
-
+    this.map.setCollisionBetween(0, 10000, true, this.collisionLayer);
+    this.collisionLayer.resizeWorld();
+    this.collisionLayer.debug = true;
     this.player1 = new Player1({
       game: this.game,
-      x: 450,
+      x: 150,
       y: 150,
-      asset: 'player1'
+      asset: 'player'
     })
 
+
     this.physics.arcade.enable(this.player1);
-    this.add.existing(this.player1)
+    //this.add.existing(this.player1)
     this.camera.follow(this.player1);
     this.player1.debug = true
 
@@ -75,11 +68,11 @@ export default class extends Phaser.State {
   render() {
     if (__DEV__) {
       // this.game.debug.spriteInfo(this.player1, 32, 32)
-      // this.game.debug.body(this.player1);
+       this.game.debug.body(this.player1);
     }
   }
 
   update() {
-    this.physics.arcade.collide(this.player1, this.layer)
+    this.physics.arcade.collide(this.player1, this.collisionLayer)
   }
 }

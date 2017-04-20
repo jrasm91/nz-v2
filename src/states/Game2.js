@@ -11,36 +11,36 @@ export default class extends Phaser.State {
   preload() {}
 
   create() {
-    this.physics.startSystem(Phaser.Physics.ARCADE);
+      this.physics.startSystem(Phaser.Physics.ARCADE);
 
-    this.map = this.game.add.tilemap('map4');
-    this.map.addTilesetImage('meta_tiles');
-    this.map.addTilesetImage('tileset01');
+      this.map = this.game.add.tilemap('map4');
+      this.map.addTilesetImage('meta_tiles');
+      this.map.addTilesetImage('tileset01');
 
-    this.collisionLayer = this.map.createLayer('Collisions');
-    this.collisionLayer.debug = true
-    this.map.createLayer('Background')
-    this.map.createLayer('Partials')
+      this.collisionLayer = this.map.createLayer('Collisions');
+      this.collisionLayer.debug = true
+      this.map.createLayer('Background')
+      this.map.createLayer('Partials')
 
-    this.collisionLayer.resizeWorld();
-    this.map.setCollisionBetween(0, 10000, true, this.collisionLayer)
+      this.collisionLayer.resizeWorld();
+      this.map.setCollisionBetween(0, 10000, true, this.collisionLayer)
 
-    this.player1 = new Player1({
-      game: this.game,
-      x: 450,
-      y: 150,
-      asset: 'player'
-    })
+      this.player1 = new Player1({
+        game: this.game,
+        x: 450,
+        y: 150,
+        asset: 'player'
+      })
 
-    this.physics.arcade.enable(this.player1);
-    this.camera.follow(this.player1);
-    this.player1.debug = true
+      this.physics.arcade.enable(this.player1);
+      this.camera.follow(this.player1);
+      this.player1.debug = true
 
-    this.healthbar = new HealthBar({
-      game: this,
-      x: this.game.width - 3,
-      y: 3
-    })
+      this.healthbar = new HealthBar({
+        game: this,
+        x: this.game.width - 3,
+        y: 3
+      })
   }
 
   render() {
