@@ -1,5 +1,5 @@
-import Phaser from 'phaser'
-import config from '../config'
+import Phaser from 'phaser';
+import config from '../config';
 
 export default class extends Phaser.Sprite {
   constructor({ game, x, y }) {
@@ -40,7 +40,7 @@ export default class extends Phaser.Sprite {
     if (this.health < 0) {
       this.health = 100;
     }
-    var width = this.originalWidth * (this.health / 100)
+    var width = this.originalWidth * (this.health / 100);
     this.game.add.tween(this.healthBox).to({ width: width }, 250, Phaser.Easing.Linear.None, true);
   }
   update() {
