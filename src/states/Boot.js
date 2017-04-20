@@ -3,7 +3,6 @@ import WebFont from 'webfontloader';
 
 export default class extends Phaser.State {
   init() {
-    // this.stage.backgroundColor = '#29434d'
     this.stage.backgroundColor = '#333';
     this.fontsReady = false;
     this.fontsLoaded = this.fontsLoaded.bind(this);
@@ -17,11 +16,14 @@ export default class extends Phaser.State {
       active: this.fontsLoaded
     });
 
-    let text = this.add.text(this.world.centerX, this.world.centerY, 'Loading...', { font: '24px Arial', fill: '#ddd', align: 'center' });
-    text.anchor.setTo(0.5, 0.5);
+    this.add.text(this.world.centerX, this.world.centerY, 'Loading...', {
+      font: '24px Arial',
+      fill: '#ddd',
+      align: 'center'
+    }).anchor.setTo(0.5, 0.5);
 
-    this.load.image('loaderBg', './assets/images/loader-bg.png');
-    this.load.image('loaderBar', './assets/images/loader-bar.png');
+    this.load.image('loadingBar', './assets/images/loading_bar.png');
+    this.load.image('loadingBackground', './assets/images/loading_background.png');
   }
 
   render() {

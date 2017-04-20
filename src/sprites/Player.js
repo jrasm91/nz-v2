@@ -8,6 +8,8 @@ export default class extends Phaser.Sprite {
     this.kb = game.input.keyboard;
 
     this.game.add.existing(this);
+    this.game.physics.arcade.enable(this);
+    this.body.setSize(32, 50, 16, 12);
 
     this.animations.add('walk-left', [118, 119, 120, 121, 122, 123, 124, 125]);
     this.animations.add('walk-right', [144, 145, 146, 147, 148, 149, 150, 151]);
@@ -19,7 +21,7 @@ export default class extends Phaser.Sprite {
     let dx = 0;
     let dy = 0;
 
-    let SPEED = 15;
+    let SPEED = config.animations.WALK_SPEED;
 
     if (!this.body.blocked.left &&
       (this.kb.isDown(Phaser.Keyboard.LEFT) || this.kb.isDown(Phaser.Keyboard.A))) {
