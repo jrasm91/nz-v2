@@ -33,7 +33,7 @@ export default class extends Phaser.State {
     for (let i = 0; i < 1; i++) {
       this.enemies.push(new Enemy({
         game: this.game,
-        x: 800,
+        x: 50,
         y: 25
       }));
     }
