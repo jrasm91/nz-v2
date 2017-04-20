@@ -18,7 +18,8 @@ export default class extends Phaser.State {
     this.collisionLayer = this.map.createLayer('Collisions');
     this.collisionLayer.debug = true;
     this.map.createLayer('Background');
-    this.map.createLayer('Partials');
+    this.map.createLayer('Partials1');
+    this.map.createLayer('Partials2');
 
     this.collisionLayer.resizeWorld();
     this.map.setCollisionBetween(0, 10000, true, this.collisionLayer);
