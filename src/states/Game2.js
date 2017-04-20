@@ -1,8 +1,7 @@
 /* globals __DEV__ */
-import Phaser from 'phaser'
-import Player1 from '../sprites/Player1'
-import HealthBar from '../sprites/HealthBar'
-import Crystal from '../sprites/Crystal'
+import Phaser from 'phaser';
+import Player1 from '../sprites/Player1';
+import HealthBar from '../sprites/HealthBar';
 
 export default class extends Phaser.State {
   init() {
@@ -18,29 +17,29 @@ export default class extends Phaser.State {
     this.map.addTilesetImage('tileset01');
 
     this.collisionLayer = this.map.createLayer('Collisions');
-    this.collisionLayer.debug = true
-    this.map.createLayer('Background')
-    this.map.createLayer('Partials')
+    this.collisionLayer.debug = true;
+    this.map.createLayer('Background');
+    this.map.createLayer('Partials');
 
     this.collisionLayer.resizeWorld();
-    this.map.setCollisionBetween(0, 10000, true, this.collisionLayer)
+    this.map.setCollisionBetween(0, 10000, true, this.collisionLayer);
 
     this.player1 = new Player1({
       game: this.game,
       x: 450,
       y: 150,
       asset: 'player'
-    })
+    });
 
     this.physics.arcade.enable(this.player1);
     this.camera.follow(this.player1);
-    this.player1.debug = true
+    this.player1.debug = true;
 
     this.healthbar = new HealthBar({
       game: this,
       x: this.game.width - 3,
       y: 3
-    })
+    });
   }
 
   render() {
@@ -51,6 +50,6 @@ export default class extends Phaser.State {
   }
 
   update() {
-    this.physics.arcade.collide(this.player1, this.collisionLayer)
+    this.physics.arcade.collide(this.player1, this.collisionLayer);
   }
 }

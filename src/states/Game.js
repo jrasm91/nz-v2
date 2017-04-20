@@ -1,8 +1,7 @@
 /* globals __DEV__ */
-import Phaser from 'phaser'
-import Player1 from '../sprites/Player1'
-import HealthBar from '../sprites/HealthBar'
-import Crystal from '../sprites/Crystal'
+import Phaser from 'phaser';
+import Player1 from '../sprites/Player1';
+import HealthBar from '../sprites/HealthBar';
 
 export default class extends Phaser.State {
   init() {
@@ -20,13 +19,13 @@ export default class extends Phaser.State {
     this.layer = this.map.createLayer('Dungeon1');
     this.layer.resizeWorld();
 
-    this.map.setCollisionBetween(1, 3)
-    this.map.setCollision(11)
-    this.map.setCollision(13)
-    this.map.setCollisionBetween(21, 23)
-    this.map.setCollisionBetween(31, 34) // doors
-    this.map.setCollisionBetween(41, 42)
-    this.map.setCollisionBetween(51, 52)
+    this.map.setCollisionBetween(1, 3);
+    this.map.setCollision(11);
+    this.map.setCollision(13);
+    this.map.setCollisionBetween(21, 23);
+    this.map.setCollisionBetween(31, 34); // doors
+    this.map.setCollisionBetween(41, 42);
+    this.map.setCollisionBetween(51, 52);
 
     // this.layer.debug = true;
 
@@ -35,12 +34,12 @@ export default class extends Phaser.State {
       x: 450,
       y: 150,
       asset: 'player1'
-    })
+    });
 
     this.physics.arcade.enable(this.player1);
-    this.add.existing(this.player1)
+    this.add.existing(this.player1);
     this.camera.follow(this.player1);
-    this.player1.debug = true
+    this.player1.debug = true;
 
     // let colors = ['blue', 'green', 'grey', 'orange', 'pink', 'yellow']
     // this.crystals = []
@@ -58,18 +57,18 @@ export default class extends Phaser.State {
       game: this,
       x: this.game.width - 3,
       y: 3
-    })
+    });
 
     // this.game.add.existing(this.healthbar)
 
     this.game.input.keyboard.addCallbacks(this, null, null, (key) => {
       switch (key) {
         case 'd':
-          this.isPassable = !this.isPassable
-          this.map.setCollisionBetween(31, 34, !this.isPassable) // doors
-          break
+          this.isPassable = !this.isPassable;
+          this.map.setCollisionBetween(31, 34, !this.isPassable); // doors
+          break;
       }
-    })
+    });
   }
 
   render() {
@@ -80,6 +79,6 @@ export default class extends Phaser.State {
   }
 
   update() {
-    this.physics.arcade.collide(this.player1, this.layer)
+    this.physics.arcade.collide(this.player1, this.layer);
   }
 }

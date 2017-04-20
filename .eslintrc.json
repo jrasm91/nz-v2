@@ -1,8 +1,10 @@
 {
   "extends": "standard",
   "rules": {
-        "semi": [2, "always"]
-    },
+    "semi": [2, "always"],
+    "space-before-function-paren": ["error", "never"],
+    "eol-last": ["error", "never"]
+  },
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
