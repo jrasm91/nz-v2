@@ -9,6 +9,9 @@ export default {
       height: 25
     }
   },
+  enemy: {
+    WALK_SPEED: 100
+  },
   animations: {
     WALK_SPEED: 15
   }
