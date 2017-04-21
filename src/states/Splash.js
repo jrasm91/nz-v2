@@ -1,5 +1,7 @@
 import Phaser from 'phaser';
 import { centerGameObjects } from '../utils';
+import config from '../config';
+import files from '../files';
 
 export default class extends Phaser.State {
   init() {}
@@ -16,7 +18,13 @@ export default class extends Phaser.State {
     this.load.tilemap('map1', 'assets/maps/map1.json', null, Phaser.Tilemap.TILED_JSON);
     this.load.image('tileset01', 'assets/images/tileset01.png');
     this.load.image('tileset02', 'assets/images/tileset02.png');
+    this.load.image('tileset03', 'assets/images/tileset03.png');
     this.load.image('meta_tiles', 'assets/images/meta_tiles.png');
+
+    for (let file of files) {
+      let key = file.slice(0, -4);
+      this.load.spritesheet(key, `Universal-LPC-spritesheet/${file}`, 64, 64);
+    }
   }
 
   create() {

@@ -2,17 +2,61 @@ import Phaser from 'phaser';
 import config from '../config';
 
 export default class extends Phaser.Sprite {
-  constructor(game, x, y, asset) {
-    super(game, x, y, asset);
-    this.anchor.setTo(0.5);
+  constructor(game, x, y, assets) {
+    super(game, x, y, null);
     this.game.add.existing(this);
     this.game.physics.arcade.enable(this);
-    this.body.setSize(32, 50, 16, 12);
+    this.body.setSize(32, 50, -16, -18);
+    // this.scale.setTo(2);
 
-    this.animations.add('walk:left', [118, 119, 120, 121, 122, 123, 124, 125]);
-    this.animations.add('walk:right', [144, 145, 146, 147, 148, 149, 150, 151]);
-    this.animations.add('walk:up', [105, 106, 107, 108, 109, 110, 111, 112]);
-    this.animations.add('walk:down', [131, 132, 133, 134, 135, 136, 137, 138]);
+    for (let asset of assets) {
+      this.addChild(new Phaser.Sprite(game, 0, 0, asset));
+    }
+
+    this.children.forEach(function(c) {
+      c.anchor.setTo(0.5);
+      c.animations.frame = 6 * 13;
+      for (let i = 0; i < config.animations.actions.length; i++) {
+        let a = config.animations.actions[i];
+        c.animations.add(a.name, Phaser.ArrayUtils.numberArrayStep(13 * i, 13 * i + a.frameCount))
+      }
+    });
+  }
+
+  spellcast(directions, speed) {
+    this.move(directions, 'spellcast', speed);
+  }
+
+  thrust(directions, speed) {
+    this.move(directions, 'thrust', speed);
+  }
+
+  walk(directions, speed) {
+    this.move(directions, 'walk', speed);
+  }
+
+  slash(directions, speed) {
+    this.move(directions, 'slash', speed);
+  }
+
+  shoot(directions, speed) {
+    this.move(directions, 'shoot', speed);
+  }
+
+  hurt(speed) {
+    this.play('hurt', speed, false, true);
+  }
+
+  play() {
+    this.children.forEach((c) => {
+      c.play(...arguments);
+    })
+  }
+
+  stop() {
+    this.children.forEach((c) => {
+      c.animations.frame = 6 * 13;
+    })
   }
 
   move({ left, right, up, down }, animationType, speed) {
@@ -41,6 +85,7 @@ export default class extends Phaser.Sprite {
       // distance scales when moving both in x and y direction
       dx *= 0.707;
       dy *= 0.707;
+      // left | right animation when moving in both x-axis and y-axis
       animationDirection = dx < 0 ? 'left' : 'right';
     }
 
@@ -48,11 +93,22 @@ export default class extends Phaser.Sprite {
     this.body.velocity.y = dy;
 
     if (animationDirection) {
-      this.animations.play(`${animationType}:${animationDirection}`, config.animations.WALK_SPEED, true);
+      animationType = 'walk'
+      this.play(`${animationType}:${animationDirection}`, config.animations.WALK_SPEED, true);
     } else {
-      this.animations.frame = 130;
+      this.stop();
     }
   }
 
-  update() {}
+  update() {
+
+    // console.log(this.children)
+    // console.log(this.world.x);
+    // console.log(this);
+    // debugger;
+    // this.children.forEach(function(c) {
+    //   c.x = this.world.x;
+    //   c.y = this.world.y;
+    // })
+  }
 }
