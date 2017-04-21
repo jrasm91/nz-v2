@@ -33,13 +33,9 @@ export default class extends Phaser.State {
         x: 50,
         y: 25,
         sprites: [
-          'body/male/tanned2',
-          'torso/chain/mail_male',
-          'head/helms/male/metal_helm_male',
-          'hands/gloves/male/metal_gloves_male',
-          'legs/armor/male/metal_pants_male',
-          'feet/armor/male/metal_boots_male',
-          'weapons/right hand/male/spear_male'
+          // http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator/#?body=dark&eyes=red&armor=chest_plate&mail=chain&shoulders=none&gloves=metal&hat=hood_chain&shoes=boots_metal&legs=pants_white&arms=plate&hair=none&=eyes_brown
+          'gaurd1',
+          'weapons:spear'
         ]
       }));
     }
@@ -49,25 +45,8 @@ export default class extends Phaser.State {
       x: 450,
       y: 150,
       sprites: [
-        'body/male/tanned2',
-        'body/male/eyes/blue',
-        'head/helms/male/golden_helm_male',
-        'hands/gloves/male/golden_gloves_male',
-        'torso/gold/chest_male',
-        'torso/gold/arms_male',
-        'legs/armor/male/golden_greaves_male',
-        'feet/armor/male/golden_boots_male',
-        'weapons/right hand/male/spear_male'
-        // 'body:light',
-        // 'eyes:blue',
-        // 'nose:straight_dark',
-        // 'armor:chain_hood',
-        // 'armor:chain_torso',
-        // 'armor:metal_boots',
-        // 'armor:metal_pants',
-        // 'armor:metal_chest',
-        // // 'armor:shield',
-        // 'weapon:spear'
+        // http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator/#?body=tanned&eyes=blue&nose=straight&ears=none&legs=none&clothes=longsleeve_brown&mail=chain&armor=chest_leather&jacket=none&tie=none&hair=messy2_raven&arms=none&shoulders=leather&spikes=none&bracers=none&greaves=none&hat=none&shoes=none&belt=none&bracelet=none
+        'player1'
       ]
     });
 
