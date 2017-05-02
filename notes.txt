@@ -1,0 +1,1 @@
+find . -path ./_build -prine -o -name \*.png -print > files.txt
