@@ -23,12 +23,12 @@ export default class extends Phaser.Sprite {
     });
   }
 
-  spellcast(directions, speed) {
-    this.move(directions, 'spellcast', speed);
+  spellcast(speed) {
+    this.play('spellcast:down',10,false);
   }
 
   thrust(directions, speed) {
-    this.move(directions, 'thrust', speed);
+    this.play( 'thrust:down', 10 ,false);
   }
 
   walk(directions, speed) {
@@ -36,11 +36,11 @@ export default class extends Phaser.Sprite {
   }
 
   slash(directions, speed) {
-    this.move(directions, 'slash', speed);
+    this.play('slash:down', 10, false);
   }
 
   shoot(directions, speed) {
-    this.move(directions, 'shoot', speed);
+    this.play('shoot:down', 10, false);
   }
 
   hurt(speed) {
